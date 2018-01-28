@@ -54,6 +54,7 @@ button:focus{
 
 main {
     margin-bottom: 20px;
+    font-size: 0;
 } 
 
 h4 {
@@ -62,7 +63,7 @@ h4 {
 
 .column {
 	display: inline-block;
-	width: 32%;
+	width: 33%;
 	color: #c2c2c2;
 	vertical-align: top;
 	padding: 20px 15px;
@@ -75,10 +76,8 @@ h4 {
 	padding-top: 5px;  
 }
 
-.column__list li {
-	
-	margin-bottom: 5px;
-		
+.column__list li {	
+	margin-bottom: 5px;		
 }
 
 .column__list li a {
@@ -93,7 +92,7 @@ h4 {
  }
 
  .column__list img {
- 	 vertical-align: middle;
+ 	vertical-align: middle;
  }
 
 .people {
@@ -106,6 +105,7 @@ h4 {
 	padding-left: 15px;
 	vertical-align: middle;
 	overflow: hidden;
+	max-height: 36px;
 	width: calc(100% - 50px);
 }
 
